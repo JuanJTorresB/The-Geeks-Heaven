@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../Recursos Globales/Fuentes/Fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../Recursos Globales/Imagenes/Logo.png" type="image/png">
+    <link rel="stylesheet" media="screen and (min-width: 450px)" href="../Recursos Globales/Media-Queries/screen-block.css">
     <title>The Geeks Heaven</title>
 </head>
 <body>
@@ -26,6 +27,8 @@
         </nav>
     </header>
     <main>
+        <div class="screen__lock">
+        </div>
         <section class="main__section section--promocion">
             <img src="Recursos-Locales/20DTO.jpg" alt="Promocion 20% en Referencias Seleccionadas" class="Promocion__img">
         </section>
@@ -75,9 +78,30 @@
                     </a>
                     </div>
                 </li>
-                <li class="navegacion__lista__items"><a href=""><i class="inconos__nav fa-solid fa-book-bookmark fa-2xl"></i></a></li>
-                <li class="navegacion__lista__items"><a href=""><i class="inconos__nav fa-solid fa-cart-shopping fa-2xl"></i></a></li>
-                <li class="navegacion__lista__items"><a href=""><i class="inconos__nav fa-solid fa-user fa-2xl"></i></a></li>
+                <li class="navegacion__lista__items">
+                    <div class="item--actual actual--oculto">
+                    <a href="">
+                        <i class="inconos__nav fa-solid fa-book-bookmark fa-2xl">
+                        </i>
+                    </a>
+                    </div>
+                </li>
+                <li class="navegacion__lista__items">
+                    <div class="item--actual actual--oculto">
+                    <a href="">
+                        <i class="inconos__nav fa-solid fa-cart-shopping fa-2xl">
+                        </i>
+                    </a>
+                    </div>
+                </li>
+                <li class="navegacion__lista__items">
+                    <div class="item--actual actual--oculto">
+                    <a href="">
+                        <i class="inconos__nav fa-solid fa-user fa-2xl">
+                        </i>
+                    </a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </footer>
