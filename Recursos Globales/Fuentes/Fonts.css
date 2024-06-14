@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Avenir";
+    src: url(Avenir/Avenir-Book.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url(Avenir/Avenir-Black.ttf) format("truetype");
+    font-weight: 800;
+}

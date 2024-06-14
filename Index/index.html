@@ -3,11 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Recursos Globales/Fuentes/Fonts.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="../Recursos Globales/Logo.png" type="image/png">
+    <link rel="icon" href="../Recursos Globales/Imagenes/Logo.png" type="image/png">
     <title>The Geeks Heaven</title>
 </head>
 <body>
-    <h1>Hola</h1>
+    <header>
+        <div class="header__item item__encabezado">
+            <div class="encabezado__item encabezado--izquierda">
+                <h1 class="encabezado__h1 h1--encabezado">The Geeks Heaven</h1>
+                <h2 class="encabezado__h2 h2--encabezado">Mangas y Comics</h2>    
+            </div>
+            <div class="encabezado__item encabezado--derecha">
+                <img src="../Recursos Globales/Imagenes/Logo2.png" alt="Logo 'The Geeks Heaven'" class="encabezado__img">
+            </div>
+        </div>
+        <nav class="header__item item_buscador">
+            <form action="" class="buscador__cuadro">
+                <input type="text" placeholder=" 🔎  Buscar..." class="cuadro__input">
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="main__section section--promocion">
+            <img src="Recursos-Locales/20DTO.jpg" alt="Promocion 20% en Referencias Seleccionadas" class="Promocion__img">
+        </section>
+        <section class="main__section section--scrolls section--Mas-Leidos">
+            <div class="section__separador">
+                <h3 class="scrolls__h3">Más Leídos</h3>
+            </div>
+            <div class="section__galeria">
+                <ul class="galeria__lista">
+                    <li class="galeria__lista__item"><a href=""><img src="../Recursos Globales/Imagenes/Libros/Libro_1_C.jpg" alt="" class="galeria__lista__item__img"></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="main__section section--scrolls section--Novedades">
+            <div class="section__separador">
+                <h3 class="scrolls__h3">Novedades</h3>
+            </div>
+            <div class="section__galeria">
+                <ul class="galeria__lista">
+                    <li class="galeria__lista__item"><a href=""><img src="../Recursos Globales/Imagenes/Libros/Libro_1_C.jpg" alt="" class="galeria__lista__item__img"></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="barra__navegacion">
+            <ul class="barra__navegacion__lista">
+                <li class="navegacion__lista__items"></li>
+                <li class="navegacion__lista__items"></li>
+                <li class="navegacion__lista__items"></li>
+                <li class="navegacion__lista__items"></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
