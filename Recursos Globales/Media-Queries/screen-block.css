@@ -12,6 +12,14 @@ main, footer, .item_buscador {
     display: none;
 }
 
+body {
+    background-color: var(--P_color1);
+}
+
+header {
+    background-color: var(--C_color1);
+}
+
 #screen-lock {
     box-sizing: border-box;
     display: flex;
