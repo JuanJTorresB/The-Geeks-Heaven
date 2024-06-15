@@ -1,0 +1,265 @@
+:root {
+    --C_color1: #fffff5;
+    --C_color2: #d3d3d3;
+    --P_color1: #f0ca6c;
+    --P_color2: #6c8ff0;
+    --F_color1: #313131;
+    --F_color2: #5b5b54;
+    --P_font: "Avenir", Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#screen-lock {
+    display: none;
+}
+
+body {
+    background-color: var(--C_color1);
+}
+
+/* Estilos Encabezado */
+
+header {
+    box-sizing: border-box;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+        "encabezado"
+        "buscador";
+}
+
+.header__item {
+    display: flex;
+}
+
+.item__encabezado {
+    display: grid;
+    column-gap: 20px;
+    grid-area: encabezado;
+    grid-template-areas:
+        "Texto-Header Texto-Header Icon-Header"
+}
+
+.encabezado__img {
+    width: 80%;
+    border-radius: 100%;
+}
+
+.encabezado--izquierda {
+    padding-top: 5vw ;
+    padding-left: 5vw;
+    grid-area: Texto-Header;
+}
+
+.encabezado__h2 {
+    color: var(--F_color2);
+    font-family: var(--P_font);
+}
+
+.encabezado__h1 {
+    color: var(--F_color1);
+    font-family: var(--P_font);
+}
+
+.h1--encabezado {
+    font-size: 7vw;
+    font-weight: 800;
+}
+
+.h2--encabezado {
+    padding-top: 2vw;
+    font-size: 4vw;
+}
+
+.encabezado--derecha {
+    padding-top: 4vw;
+    grid-area: Icon-Header;
+}
+
+.item_buscador {
+    justify-content: center;
+    grid-area: buscador;
+}
+
+.buscador__cuadro {
+    padding-top: 4vw;
+    height: 6vh;
+    width: 90%;
+    display: flex;
+}
+
+.cuadro__input {
+    font-family: var(--P_font);
+    color: var(--F_color2);
+    width: 100%;
+}
+
+/* Estilos Main */
+
+main {
+    box-sizing: content-box;
+    margin-top: 2vw;
+    padding-bottom: 18vw;
+    padding-top: 4vw;
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+/* Recomendaciones Estilos */
+
+#Recomendacion-Container {
+    grid-area: Recomendacion;
+    display: flex;
+}
+
+.recomendacion__background {
+    background-color: var(--F_color2);
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.recomendacion__card {
+    padding: 15px;
+    display: flex;
+    background-color: var(--P_color1);
+    margin: auto;
+    margin-top: .8vh;
+    width: 95%;
+    height: 95%;
+    border-radius: 25px;
+}
+
+.card__img {
+    width: 90%;
+    border-radius: 25px;
+}
+
+.card__txt {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.txt__titulo {
+    font-size: 4vw;
+    width: 100%;
+    font-family: var(--P_font);
+    color: var(--C_color1);
+}
+
+.card__botones{
+    font-family: var(--P_font);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3vw;
+    column-gap: 2vw;
+    align-items: center;
+    color: var(--C_color1);
+}
+
+.cantidad {
+    font-weight: 800;
+}
+
+.precio__background {
+    display: flex;
+    justify-content: center;
+    background-color: var(--P_color2);
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.precio__txt {
+    font-family: var(--P_font);
+    color: var(--C_color1);
+    font-size: 4vw;
+    font-weight: 800;
+}
+
+.carrito__background {
+    background-color: var(--P_color2);
+    border-radius: 10px;
+    padding: 3vw;
+}
+
+.carrito__background:hover  {
+    background-color: var(--C_color1);
+    color: var(--P_color2);
+}
+
+.carrito__background:hover .iconos {
+    color: var(--P_color2);
+}
+
+.iconos {
+    color: var(--C_color1);
+}
+
+/* Estilos Barra de Navegacion */
+
+.barra__navegacion {
+    margin-top: 18vw;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 18vw;
+    background-color: var(--P_color1);
+    border-radius: 15px / 15% 15% 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.barra__navegacion__lista {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_icons {
+    width: 25vw;
+}
+
+.inconos__nav {
+    color: var(--C_color1);
+}
+
+.item--actual {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 6vw;
+    padding-bottom: 7vw;
+    position: relative;
+    top: 2vw;
+    display: flex;
+    align-items: center;
+    background-color: var(--P_color2);
+    border-radius: 30% 30% 0% 0%;
+}
+
+.actual--oculto:hover {
+    background-color: var(--P_color2);
+}
+
+.actual--oculto {
+    background-color: transparent;
+}
+
+.icono--actual {
+    position: relative;
+    bottom: 2vw;
+}
