@@ -30,7 +30,7 @@ header {
 
 .screen-lock__card {
     margin: auto;
-    height: calc(100vh - );
+    height: calc(100vh + 100%);
     width: 80%;
     padding: 5vw;
     background-color: var(--P_color2);
