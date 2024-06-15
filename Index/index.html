@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../Recursos Globales/Fuentes/Fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../Recursos Globales/Imagenes/Logo.png" type="image/png">
-    <link rel="stylesheet" media="screen and (min-width: 450px)" href="../Recursos Globales/Media-Queries/screen-block.css">
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="../Recursos Globales/Media-Queries/screen-block.css">
     <title>The Geeks Heaven</title>
 </head>
 <body>
@@ -25,10 +25,14 @@
                 <input type="text" placeholder=" 🔎  Buscar..." class="cuadro__input">
             </form>
         </nav>
+        <div id="screen-lock">
+            <div class="screen-lock__card">
+                <h4 class="screen-lock__text screen-lock--Titulo">No estamos disponibles para esta resolución</h4>
+                <p class="screen-lock__text screen-lock--Parrafo"">Para brindarle un óptimo servicio requerimos resoluciones móviles, gracias por su compresión</p>
+            </div>
+        </div>
     </header>
     <main>
-        <div class="screen__lock">
-        </div>
         <section class="main__section section--promocion">
             <img src="Recursos-Locales/20DTO.jpg" alt="Promocion 20% en Referencias Seleccionadas" class="Promocion__img">
         </section>
@@ -80,7 +84,7 @@
                 </li>
                 <li class="navegacion__lista__items">
                     <div class="item--actual actual--oculto">
-                    <a href="">
+                    <a href="../Catalogo/catalogo.html">
                         <i class="inconos__nav fa-solid fa-book-bookmark fa-2xl">
                         </i>
                     </a>

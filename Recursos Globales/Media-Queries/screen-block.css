@@ -1,3 +1,44 @@
-main, footer {
+:root {
+    --C_color1: #fffff5;
+    --C_color2: #d3d3d3;
+    --P_color1: #f0ca6c;
+    --P_color2: #6c8ff0;
+    --F_color1: #313131;
+    --F_color2: #5b5b54;
+    --P_font: "Avenir", Arial, Helvetica, sans-serif;
+}
+
+main, footer, .item_buscador {
     display: none;
+}
+
+#screen-lock {
+    box-sizing: border-box;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: var(--P_color1);
+}
+
+.screen-lock__card {
+    margin: auto;
+    height: calc(100vh - );
+    width: 80%;
+    padding: 5vw;
+    background-color: var(--P_color2);
+    border-radius: 20px / 35%;
+}
+
+.screen-lock__text {
+    text-align: center;
+    font-family: var(--P_font);
+}
+.screen-lock--Titulo {
+    color: var(--C_color1);
+    font-size: 7vw;
+}
+
+.screen-lock--Parrafo {
+    color: var(--C_color1);
+    font-size: 6vw;
 }
