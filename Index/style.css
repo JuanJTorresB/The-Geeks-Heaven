@@ -87,6 +87,7 @@ header {
 .buscador__cuadro {
     padding-top: 4vw;
     height: 6vh;
+    min-height: 60px;
     width: 90%;
     display: flex;
 }
@@ -183,7 +184,38 @@ body {
     box-sizing: border-box;
     display: flex;
     width: 100%;
-    height: 5em;
+    height: .005em;
+}
+
+@media (min-width: 320px) {
+    .section__separador {
+        height: 1em;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 420px) {
+    .section__separador {
+        height: 3em;
+    }
+
+    .buscador__cuadro {
+        padding-top: 2vw;
+        height: 8vw;
+    }
+}
+
+@media (min-width: 500px) {
+    .section__separador {
+        height: 4em;
+    }
+}
+
+@media (min-width: 530px) {
+    .section__separador {
+        height: 5em;
+    }
 }
 
 .section__galeria {
