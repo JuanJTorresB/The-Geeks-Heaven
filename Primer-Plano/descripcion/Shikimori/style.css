@@ -285,7 +285,9 @@ main {
 .txt__p {
     font-size: 5vw;
     color: var(--C_color1);
+    text-align: justify;
     font-family: var(--P_font);
+    word-spacing: .1em;
 }
 
 /* Navegacion */
