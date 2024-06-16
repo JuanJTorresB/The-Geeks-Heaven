@@ -26,6 +26,22 @@ body {
     background-color: var(--C_color1);
 }
 
+main {
+    margin-bottom: 20vw;
+}
+
+@media (min-width:425px) {
+    main {
+        margin-bottom: 50vw;
+    }
+}
+
+@media (min-width:580px) {
+    main {
+        margin-bottom: 80vw;
+    }
+}
+
 /* Estilos Encabezado */
 
 header {
@@ -261,11 +277,13 @@ main {
 }
 
 .txt__h4 {
+    font-size: 4.5vw;
     font-family: var(--P_font);
     color: var(--C_color1);
 }
 
 .txt__p {
+    font-size: 5vw;
     color: var(--C_color1);
     font-family: var(--P_font);
 }
