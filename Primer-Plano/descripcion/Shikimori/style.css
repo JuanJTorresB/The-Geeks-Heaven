@@ -26,22 +26,6 @@ body {
     background-color: var(--C_color1);
 }
 
-main {
-    margin-bottom: 20vw;
-}
-
-@media (min-width:425px) {
-    main {
-        margin-bottom: 50vw;
-    }
-}
-
-@media (min-width:580px) {
-    main {
-        margin-bottom: 80vw;
-    }
-}
-
 /* Estilos Encabezado */
 
 header {
@@ -125,7 +109,32 @@ main {
     display: flex;
     width: 100vw;
     flex-wrap: wrap;
-    height: 100%;   
+    height: fit-content;
+    margin-bottom: 100vw;
+}
+
+@media (min-width:375px) {
+    main {
+        margin-bottom: 125vw;
+    }
+}
+
+@media (min-width:425px) {
+    main {
+        margin-bottom: 150vw;
+    }
+}
+
+@media (min-width:475px) {
+    main {
+        margin-bottom: 180vw;
+    }
+}
+
+@media (min-width:600px) {
+    main {
+        margin-bottom: 200vw;
+    }
 }
 
 /* Card Estilo */
