@@ -120,7 +120,7 @@ main {
 }
 
 .recomendacion__background {
-    background-color: var(--F_color2);
+    background-color: var(--C_color2);
     margin: auto;
     width: 90%;
     height: 100%;

@@ -112,24 +112,47 @@ header {
 main {
     box-sizing: content-box;
     margin-top: 2vw;
-    padding-bottom: 18vw;
+    margin-bottom: 25%;
+    padding-bottom: .5%;
     padding-top: 4vw;
     display: grid;
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     grid-template-areas:
         "Recomendacion"
-        "Todos"
-        "Todos"
-        "Todos"
-        "Todos"
-        "Todos"
-        "Todos"
-        "Todos"
-        "Todos"
-        "Todos"
         "Todos";
 }
+
+/* @media (min-width:320px) {
+    main {
+        padding-bottom: 10%;
+    }
+}
+
+@media (min-width:400px) {
+    main {
+        padding-bottom: 60%;
+    }
+}
+
+@media (min-width:450px) {
+    main {
+        padding-bottom: 80%;
+    }
+}
+
+@media (min-width:500px) {
+    main {
+        padding-bottom: 100%;
+    }
+} */
+
+/* @media (min-width:600px) {
+    main {
+        padding-bottom: 30%;
+    }
+} */
+
 
 /* Recomendaciones Estilos */
 
@@ -139,7 +162,7 @@ main {
 }
 
 .recomendacion__background {
-    background-color: var(--F_color2);
+    background-color: var(--C_color2);
     margin: auto;
     width: 90%;
     height: 100%;
