@@ -113,6 +113,10 @@ main {
         "Novedades";
 }
 
+body {
+    padding-bottom: 30vw;
+}
+
 
 .main__section {
     display: flex;

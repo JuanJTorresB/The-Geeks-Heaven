@@ -22,6 +22,10 @@ body {
     background-color: var(--C_color1);
 }
 
+main {
+    margin-bottom: 80vw;
+}
+
 /* Estilos Encabezado */
 
 header {
