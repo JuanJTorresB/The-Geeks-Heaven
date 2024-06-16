@@ -259,7 +259,6 @@ main {
 }
 
 .recomendacion__card--cambios2 {
-    background-color: var(--P_color2);
     border-radius: 0px 0px 15px 15px;
     position: relative;
     bottom: 25px;
@@ -267,6 +266,10 @@ main {
 
 .card--cambios--azul {
     background-color: var(--P_color2);
+}
+
+.card--cambios--azul:hover > .recomendacion__card--cambios2 {
+    background-color: var(--P_color1);
 }
 
 .iconos {
@@ -283,32 +286,6 @@ main {
     font-size: 5vw;
     color: var(--C_color1);
     font-family: var(--P_font);
-}
-
-/* Tabla Estilos */
-
-#Especificaciones-Tabla {
-    background-color: var(--P_color1);
-    border: 3px  solid var(--C_color1);
-    border-radius: 25px;
-    padding: 5%;
-}
-
-.Tabla__Item {
-    padding: 1%;
-}
-
-.Tabla__Titulo {
-    color: var(--F_color1);
-    font-family: var(--P_font);
-    font-weight: 800;
-    text-align: justify;
-}
-
-.Tabla__Info {
-    color: var(--F_color2);
-    font-family: var(--P_font);
-    text-align: right;
 }
 
 /* Navegacion */
