@@ -195,6 +195,14 @@ body {
     }
 }
 
+@media (min-width: 370px) {
+    .section__separador {
+        height: 2em;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
+
 @media (min-width: 420px) {
     .section__separador {
         height: 3em;
