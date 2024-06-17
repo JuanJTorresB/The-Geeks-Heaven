@@ -9,22 +9,23 @@
 
 ## Tabla de Contenidos
 1. [Información General](#Información-General)
-2. [Tecnologías](#technologies)
-3. [Instalación](#installation)
+2. [Tecnologías](#Tecnologías)
+3. [Instalación](#Instalación)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
 ### Información General
 ***
 En este proyecto encontrará una página web, orientada a dispositivos móviles, en la que se aplican conocimientos de semántica HTML, "Box Model" y de "Responsive Design"
 ### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
+![Index](/Recursos%20Readme/screenshots/ss_Index.png)
+![Close Up Producto](/Recursos%20Readme/screenshots/ss_Primer_Plano_Berserk.png)
+## Tecnologías
 ***
 A list of technologies used within the project:
 * [Technologie name](https://example.com): Version 12.3 
 * [Technologie name](https://example.com): Version 2.34
 * [Library name](https://example.com): Version 1234
-## Installation
+## Instalación
 ***
 A little intro about the installation. 
 ```
