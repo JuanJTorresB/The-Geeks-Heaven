@@ -11,49 +11,36 @@
 1. [Información General](#Información-General)
 2. [Tecnologías](#Tecnologías)
 3. [Instalación](#Instalación)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+4. [Maneras de Aportar](#Maneras-de-Aportar)
+
 ### Información General
 ***
 En este proyecto encontrará una página web, orientada a dispositivos móviles, en la que se aplican conocimientos de semántica HTML, "Box Model" y de "Responsive Design"
-### Screenshot
+
+### Screenshots
 ![Index](/Recursos%20Readme/screenshots/ss_Index.png)
 ![Close Up Producto](/Recursos%20Readme/screenshots/ss_Primer_Plano_Berserk.png)
+
 ## Tecnologías
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+Tecnologías usadas en este proyecto:
+* [HTML]: Version 5
+* [CSS]: Version 3
+* [Miro](https://miro.com)
+* [Canva](https://www.canva.com)
+* [Fontawesome](https://fontawesome.com)
+* [Adobe Colors](https://color.adobe.com/es/create/color-wheel)
+
 ## Instalación
 ***
-A little intro about the installation. 
+Como Descargar
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ git clone https://github.com/JuanJTorresB/PROYECTO-FILTRO_TORRESJUAN_BECERRAJOSE.git
+<!-- Después, ejecute el index.html (Ruta --> "Index/index.html") -->
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
+
+## Maneras de Aportar
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+> Integraciones con Javacript
+
+> Diseño web de escritorio
