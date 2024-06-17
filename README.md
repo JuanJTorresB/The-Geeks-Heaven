@@ -2,14 +2,14 @@
 <br/>
 <div align="center">
   <a href="https://github.com/JuanJTorresB/PROYECTO-FILTRO_TORRESJUAN_BECERRAJOSE">
-    <img src="/Recursos Globales/Imagenes/Logo2.png" alt="Logo" width="80" height="80">
+    <img src="/Recursos Globales/Imagenes/Logo2.png" alt="Logo" width="160" height="160">
   </a>
 
-<h3 align="center">The Geeks Heaven</h3>
+<h1 align="center">The Geeks Heaven</h3>
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
+## Tabla de Contenidos
+1. [Información General](#general-info)
+2. [Tecnologías](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
