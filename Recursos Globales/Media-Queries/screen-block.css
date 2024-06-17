@@ -8,24 +8,40 @@
     --P_font: "Avenir", Arial, Helvetica, sans-serif;
 }
 
+@keyframes Background--Multicolor {
+    0% {
+        background: linear-gradient(#A1E039, #EDEB66);
+    }
+    25% {
+        background: linear-gradient(#EDEB66, #FCB1B5);
+    }
+    50% {
+        background: linear-gradient(#FCB1B5, #A2B0ED);
+    }
+    75% {
+        background: linear-gradient(#A2B0ED, #80EBE3);
+    }
+    100% {
+        background: linear-gradient(#80EBE3, #A1E039);
+    }
+}
+
 main, footer, .item_buscador {
     display: none;
 }
 
-body {
-    background-color: var(--P_color1);
-}
-
 header {
+    height: fit-content;
     background-color: var(--C_color1);
+    animation: Background--Multicolor 5s linear 0s infinite normal forwards running;
 }
 
 #screen-lock {
     box-sizing: border-box;
     display: flex;
     width: 100vw;
-    height: 80vh;
-    background-color: var(--P_color1);
+    height: fit-content;
+    background-color: transparent;
 }
 
 .screen-lock__card {

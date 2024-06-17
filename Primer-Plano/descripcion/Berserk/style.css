@@ -257,6 +257,8 @@ main {
 
 .carrito__background:hover .iconos {
     color: var(--P_color2);
+    transition-property: background-color, color;
+    transition-duration: 1s;
 }
 
 .Opciones {
