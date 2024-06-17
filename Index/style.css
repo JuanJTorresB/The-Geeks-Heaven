@@ -103,10 +103,9 @@ header {
 main {
     box-sizing: content-box;
     margin-top: 2vw;
-    padding-bottom: 18vw;
     padding-top: 4vw;
     display: grid;
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     grid-template-areas:
         "Promociones"
@@ -184,12 +183,12 @@ body {
     box-sizing: border-box;
     display: flex;
     width: 100%;
-    height: .005em;
+    height: 2em;
 }
 
 @media (min-width: 320px) {
     .section__separador {
-        height: 1em;
+        height: 1.8em;
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
@@ -197,7 +196,7 @@ body {
 
 @media (min-width: 370px) {
     .section__separador {
-        height: 2em;
+        height: 2.8em;
         padding-bottom: 0px;
         margin-bottom: 0px;
     }

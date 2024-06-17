@@ -30,6 +30,11 @@ main, footer, .item_buscador {
     display: none;
 }
 
+body {
+    height: fit-content;
+    animation: Background--Multicolor 5s linear 0s infinite normal forwards running;
+}
+
 header {
     height: fit-content;
     background-color: var(--C_color1);
