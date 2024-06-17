@@ -240,10 +240,14 @@ main {
 .carrito__background:hover  {
     background-color: var(--C_color1);
     color: var(--P_color2);
+    transition-property: background-color, color;
+    transition-duration: 2s;
 }
 
 .carrito__background:hover .iconos {
     color: var(--P_color2);
+    transition-property: background-color, color;
+    transition-duration: 1s;
 }
 
 .Opciones {
@@ -348,10 +352,14 @@ footer {
 
 .actual--oculto:hover {
     background-color: var(--P_color2);
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
 .actual--oculto {
     background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
 }
 
 .icono--actual {

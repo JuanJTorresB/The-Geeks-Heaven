@@ -317,10 +317,14 @@ main {
 
 .actual--oculto:hover {
     background-color: var(--P_color2);
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
 .actual--oculto {
     background-color: transparent;
+    transition-property: background-color;
+    transition-duration: .5s;
 }
 
 .icono--actual {
