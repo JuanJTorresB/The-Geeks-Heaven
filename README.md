@@ -8,14 +8,14 @@
 <h1 align="center">The Geeks Heaven</h3>
 
 ## Tabla de Contenidos
-1. [Información General](#general-info)
+1. [Información General](#Información-General)
 2. [Tecnologías](#technologies)
-3. [Installation](#installation)
+3. [Instalación](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
-### General Info
+### Información General
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+En este proyecto encontrará una página web, orientada a dispositivos móviles, en la que se aplican conocimientos de semántica HTML, "Box Model" y de "Responsive Design"
 ### Screenshot
 ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
 ## Technologies
