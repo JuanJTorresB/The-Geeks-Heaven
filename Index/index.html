@@ -76,7 +76,7 @@
                 <li class="navegacion__lista__items">
                     <div class="item--actual">
                     <a href="">
-                        <i class="icono--actual inconos__nav fa-solid fa-house fa-2xl">
+                        <i class="icono--actual inconos__nav fa-solid fa-house fa-4x">
                         </i>
                     </a>
                     </div>
@@ -84,7 +84,7 @@
                 <li class="navegacion__lista__items">
                     <div class="item--actual actual--oculto">
                     <a href="../Catalogo/catalogo.html">
-                        <i class="inconos__nav fa-solid fa-book-bookmark fa-2xl">
+                        <i class="inconos__nav fa-solid fa-book-bookmark fa-4x">
                         </i>
                     </a>
                     </div>
@@ -92,7 +92,7 @@
                 <li class="navegacion__lista__items">
                     <div class="item--actual actual--oculto">
                     <a href="../Carrito/carrito.html">
-                        <i class="inconos__nav fa-solid fa-cart-shopping fa-2xl">
+                        <i class="inconos__nav fa-solid fa-cart-shopping fa-4x">
                         </i>
                     </a>
                     </div>
@@ -100,7 +100,7 @@
                 <li class="navegacion__lista__items">
                     <div class="item--actual actual--oculto">
                     <a href="">
-                        <i class="inconos__nav fa-solid fa-user fa-2xl">
+                        <i class="inconos__nav fa-solid fa-user fa-4x">
                         </i>
                     </a>
                     </div>
@@ -108,6 +108,19 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        console.log(window.screen.width)
+        const iconosNav = document.getElementsByClassName("inconos__nav")
+        if (window.screen.width < 800){
+            for (let iconos of iconosNav){
+                iconos.classList.replace("fa-4x", "fa-2xl")
+            }
+        } else {
+            for (let iconos of iconosNav){
+                iconos.classList.replace("fa-2xl", "fa-4x")
+            }
+        }
+    </script>
     <script src="https://kit.fontawesome.com/6b61d34628.js" crossorigin="anonymous"></script>
 </body>
 </html>

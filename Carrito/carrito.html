@@ -43,7 +43,7 @@
                                 <span class="precio__txt"><i class="iconos fa-solid fa-dollar"></i>49.900</span>
                             </div>
                             <div class="carrito__background">
-                                <i class="iconos fa-solid fa-trash fa-sm"></i>
+                                <i class="iconos inconos__nav fa-solid fa-trash fa-sm"></i>
                             </div>
                             <div class="carrito__background">
                                 <p class="cantidad">+ 1 -</p>
@@ -117,6 +117,23 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        const cambioTamañoIconos = ()=>{
+            console.log(window.screen.width)
+            const iconosNav = document.getElementsByClassName("inconos__nav")
+            if (window.screen.width < 800){
+                for (let iconos of iconosNav){
+                    iconos.classList.replace("fa-4x", "fa-2xl")
+                }
+            } else {
+                for (let iconos of iconosNav){
+                    iconos.classList.replace("fa-2xl", "fa-4x")
+                }
+            }
+        }
+        cambioTamañoIconos()
+        window.addEventListener("resize", cambioTamañoIconos)
+        </script>
     <script src="https://kit.fontawesome.com/6b61d34628.js" crossorigin="anonymous"></script>
 </body>
 </html>
