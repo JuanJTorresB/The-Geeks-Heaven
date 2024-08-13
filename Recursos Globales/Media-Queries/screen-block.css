@@ -15,3 +15,7 @@
 .item--actual {
     max-height: 125px;
 }
+
+.buscador__cuadro {
+    padding-top: 0;
+}

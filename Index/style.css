@@ -85,7 +85,6 @@ header {
 }
 
 .buscador__cuadro {
-    padding-top: 4vw;
     height: 6vh;
     min-height: 60px;
     width: 90%;
@@ -182,54 +181,16 @@ body {
 .section__separador {
     box-sizing: border-box;
     display: flex;
-    width: 100%;
-    height: 2em;
-}
-
-@media (min-width: 320px) {
-    .section__separador {
-        height: 1.8em;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-}
-
-@media (min-width: 370px) {
-    .section__separador {
-        height: 2.8em;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-}
-
-@media (min-width: 420px) {
-    .section__separador {
-        height: 3em;
-    }
-
-    .buscador__cuadro {
-        padding-top: 2vw;
-        height: 8vw;
-    }
-}
-
-@media (min-width: 500px) {
-    .section__separador {
-        height: 4em;
-    }
-}
-
-@media (min-width: 530px) {
-    .section__separador {
-        height: 5em;
-    }
+    margin: 3%;
+    width: fit-content;
+    height: fit-content;
 }
 
 .section__galeria {
     row-gap: 0;
     margin-top: 0;
     display: flex;
-    height: fit-content;
+    min-height: fit-content;
     width: 100%;
     overflow:hidden;
     max-width: 100vw;
@@ -249,11 +210,22 @@ body {
 }
 
 .galeria__lista__item__img {
+    align-items: center;
     max-height: 200px;
     max-width: 130px;
     min-height: 15vh;
     width: 30vw;
     border-radius: 25px;
+}
+
+@media (min-width: 800px) {
+    .galeria__lista__item__img {
+        max-height: 400px;
+        max-width: 260px;
+        min-height: 15vh;
+        width: 30vw;
+        border-radius: 25px;
+    }
 }
 
 /* Estilos Barra de Navegacion */
