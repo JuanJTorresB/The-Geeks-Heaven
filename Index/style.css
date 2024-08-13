@@ -113,7 +113,7 @@ main {
 }
 
 body {
-    padding-bottom: 30vw;
+    padding-bottom: 15vw;
 }
 
 
@@ -200,7 +200,6 @@ body {
     margin-top: 0;
     overflow: scroll;
     position: relative;
-    left: 3vw;
     display: flex;
     column-gap: 20px;
     list-style-type: none;

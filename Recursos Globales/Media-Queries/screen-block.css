@@ -19,3 +19,17 @@
 .buscador__cuadro {
     padding-top: 0;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+.precio__background {
+    min-width: fit-content;
+    width: 50%;
+}
+
+.card__botones{
+    width: 100%;
+    justify-content: space-around;
+}
