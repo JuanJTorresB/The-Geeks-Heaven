@@ -90,8 +90,30 @@ header {
 }
 
 .item_buscador {
-    justify-content: center;
+    justify-content: space-around;
     grid-area: buscador;
+}
+
+.item_buscador_bg {
+    font-family: var(--P_font);
+    font-weight: 800;
+    color: var(--C_color1);
+    font-size: 18px;
+    flex-wrap: wrap;
+    background-color: var(--P_color1);
+    border-radius: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+    .item_buscador_bg {
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .buscador__cuadro {
