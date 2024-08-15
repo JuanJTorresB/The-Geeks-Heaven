@@ -1,0 +1,26 @@
+[
+    {
+        "titulo" : "SHIKIMORI ES MÁS QUE UNA CARA BONITA",
+        "precio" : 49900,
+        "descripción" : "Su mala suerte podría considerarse sobrenatural. Izumi, un chico que sale con su dulce y encantadora compañera de clase, Shikimori, y que ama la ciudad de Kioto, tienen increíbles aventuras junto a su grupo de amigos. ¡No esperes más para leer este noveno tomo!.",
+        "img" : "/Recursos Globales/Imagenes/Libros/Libro_1_C.jpg",
+        "tipo" : "Libro Impreso",
+        "dimensiones" : "11 x 17 x 1",
+        "encuadernación" : "Rústica",
+        "numero_de_paginas" : "228",
+        "fecha_de_edición" : "2024",
+        "idioma" : "Español"
+    },
+    {
+        "titulo" : "BERSERK N.32",
+        "precio" : 34900,
+        "descripción" : "Un caballero negro monta en las espaldas de un monstruo. Un imponente emperador ve mermada su fuerza por la alianza de sus adversarios. El caballero blanco derrota a los malvados Kushán y se hace con el control de los ejércitos de los nobles. Un grupo de amigos buscan la paz en la isla de Elfhelm. Una decisión del Pontífice pretende doblegar la voluntad de las familias aliadas al Vaticano. Y una joven intenta hacer su primer viaje astral con la ayuda de su amiga mágica. ¡Todo esto y más en el tomo 32 de Berserk!",
+        "img" : "/Recursos Globales/Imagenes/Libros/Libro_2_C.jpg",
+        "tipo" : "Libro Impreso",
+        "dimensiones" : "11 x 17 x 1",
+        "encuadernación" : "Rústica",
+        "numero_de_paginas" : "228",
+        "fecha_de_edición" : "2024",
+        "idioma" : "Español"
+    }
+]

@@ -110,7 +110,7 @@ main {
     width: 100vw;
     flex-wrap: wrap;
     height: fit-content;
-    margin-bottom: 100vw;
+    margin-bottom: 2vh;
 }
 
 @media (min-width:375px) {

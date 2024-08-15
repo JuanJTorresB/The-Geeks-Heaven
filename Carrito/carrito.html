@@ -68,7 +68,7 @@
                                 <span class="precio__txt"><i class="iconos fa-solid fa-dollar"></i>34.900</span>
                             </div>
                             <div class="carrito__background">
-                                <i class="iconos fa-solid fa-trash fa-sm"></i>
+                                <i class="iconos inconos__nav fa-solid fa-trash fa-sm"></i>
                             </div>
                             <div class="carrito__background">
                                 <p class="cantidad">+ 2 -</p>
@@ -121,13 +121,21 @@
         const cambioTamañoIconos = ()=>{
             console.log(window.screen.width)
             const iconosNav = document.getElementsByClassName("inconos__nav")
-            if (window.screen.width < 800){
+            if (window.screen.width > 800){
                 for (let iconos of iconosNav){
-                    iconos.classList.replace("fa-4x", "fa-2xl")
+                    if(iconos.classList.contains("fa-4x")){
+                        iconos.classList.replace("fa-4x", "fa-2xl")
+                    } else {
+                        iconos.classList.add("fa-2xl")
+                    }
                 }
             } else {
                 for (let iconos of iconosNav){
-                    iconos.classList.replace("fa-2xl", "fa-4x")
+                    if(iconos.classList.contains("fa-2x")){
+                        iconos.classList.replace("fa-2xl", "fa-4x")
+                    } else {
+                        iconos.classList.add("fa-4xl")
+                    }
                 }
             }
         }

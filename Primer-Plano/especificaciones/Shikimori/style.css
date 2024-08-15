@@ -27,19 +27,7 @@ body {
 }
 
 main {
-    margin-bottom: 20vw;
-}
-
-@media (min-width:425px) {
-    main {
-        margin-bottom: 50vw;
-    }
-}
-
-@media (min-width:580px) {
-    main {
-        margin-bottom: 80vw;
-    }
+    margin-bottom: 2vw;
 }
 
 /* Estilos Encabezado */
@@ -126,13 +114,7 @@ main {
     width: 100vw;
     flex-wrap: wrap;
     height: fit-content;
-    margin-bottom: 100vw;
-}
-
-@media (min-width:375px) {
-    main {
-        margin-bottom: 125vw;
-    }
+    margin-bottom: 15vw;
 }
 
 /* Card Estilo */

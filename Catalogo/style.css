@@ -222,8 +222,14 @@ main {
 .precio__txt {
     font-family: var(--P_font);
     color: var(--C_color1);
-    font-size: 8vw;
+    font-size: 25px;
     font-weight: 800;
+}
+
+@media (min-width: 800px) {
+    .precio__txt {
+        font-size: 50px;
+    }
 }
 
 .carrito__background {
