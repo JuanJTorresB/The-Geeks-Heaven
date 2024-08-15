@@ -236,6 +236,7 @@ main {
     background-color: var(--P_color2);
     border-radius: 10px;
     padding: 3vw;
+    border: 0px;
 }
 
 .carrito__background:hover  {
@@ -267,18 +268,15 @@ main {
     column-gap: 15px;
     row-gap: 15px;
     display: flex;
+    column-gap: 150px;
     justify-content: center;
     width: 100vw;
     flex-wrap: wrap;
 }
 
-.Todos-Container__lista__item {
-    width: 25%;
-
-}
-
 .lista__item__img {
     border-radius: 15%;
+    max-width: 200px;
     width: 100%;
 }
 

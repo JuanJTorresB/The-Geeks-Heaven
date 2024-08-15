@@ -193,11 +193,26 @@ main {
 .carrito__background {
     background-color: var(--P_color2);
     border-radius: 10px;
+    font-size: 25px;
     padding: 3vw;
+    border: 0px;
+}
+
+.cantidad__boton {
+    background: 0px;
+    border: 0px;
+    font-size: 25px;
+    color: #fffff5;
 }
 
 .carrito__background:hover  {
     background-color: var(--C_color1);
+    color: var(--P_color2);
+    transition-property: background-color, color;
+    transition-duration: 1s;
+}
+
+.carrito__background:hover .cantidad {
     color: var(--P_color2);
     transition-property: background-color, color;
     transition-duration: 1s;
