@@ -97,6 +97,10 @@ header {
     width: 100%;
 }
 
+.invisible {
+    display: none !important;
+}
+
 /* Estilos Main */
 
 main {
