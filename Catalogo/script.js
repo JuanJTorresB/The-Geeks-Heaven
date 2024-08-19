@@ -22,6 +22,7 @@ const url = "/Datos/Productos.json";
 
 const pedirProductosCatalogo = async () => {
   const datos = await petición(url, opciones);
+  todosContainer.innerHTML = ""
   for (producto of datos) {
     construirProductoCatalogo(producto);
   }
@@ -126,6 +127,9 @@ const crearProductoCatalogo = (producto) => {
 };
 
 const construirProductoCatalogo = (producto) => {
+    if (!filtroCatalogo(producto)){
+        return
+    }
     let elementos = crearProductoCatalogo(producto);
     let descripciónEspacio =
       elementos[1].lastElementChild.lastElementChild.lastElementChild;
@@ -176,10 +180,51 @@ const construirProductoCatalogo = (producto) => {
 
 const todosContainer = document.getElementById("Todos-Container__lista")
 
-const form_filtros = document.getElementById("form_filtros")
+var Genero = "Manga"
 
-form_filtros.addEventListener("select", ()=>{
-    console.log("Hola")
-})
+const filtroCatalogo = (producto)=>{
+    if (producto.genero.includes(Genero)){
+        return true
+    } else {
+        return false
+    }
+}
+
+const filtroManga = document.getElementById("Manga")
+const filtroNovelaRomántica = document.getElementById("Novela_Romántica_Juvenil")
+const filtroAcción = document.getElementById("Acción")
+const filtroFantasíaOscura = document.getElementById("Fantasía_Oscura")
+const filtroAventura = document.getElementById("Aventura")
+const filtroDrama = document.getElementById("Drama")
+const filtroSuperhéroes = document.getElementById("Superhéroes")
+
+filtroManga.addEventListener("change", ()=>{
+    Genero = "Manga";
+    pedirProductosCatalogo()
+});
+filtroNovelaRomántica.addEventListener("change", ()=>{
+    Genero = "Novela Romántica Juvenil";
+    pedirProductosCatalogo()
+});
+filtroAcción.addEventListener("change", ()=>{
+    Genero = "Acción";
+    pedirProductosCatalogo()
+});
+filtroFantasíaOscura.addEventListener("change", ()=>{
+    Genero = "Fantasía Oscura";
+    pedirProductosCatalogo()
+});
+filtroAventura.addEventListener("change", ()=>{
+    Genero = "Aventura";
+    pedirProductosCatalogo()
+});
+filtroDrama.addEventListener("change", ()=>{
+    Genero = "Drama";
+    pedirProductosCatalogo()
+});
+filtroSuperhéroes.addEventListener("change", ()=>{
+    Genero = "Superhéroes";
+    pedirProductosCatalogo()
+});
 
 pedirProductosCatalogo()
