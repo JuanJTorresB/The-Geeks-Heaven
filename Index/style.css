@@ -99,6 +99,7 @@ header {
 
 .invisible {
     display: none !important;
+    opacity: 0;
 }
 
 /* Estilos Main */
@@ -202,15 +203,19 @@ body {
 
 .galeria__lista {
     margin-top: 0;
-    overflow: scroll;
+    overflow-x: scroll;
     position: relative;
     display: flex;
     column-gap: 20px;
     list-style-type: none;
+    min-height: fit-content;
 }
 .galeria__lista__item {
     display: flex;
 }
+
+/* .salir-de {
+} */
 
 .galeria__lista__item__img {
     align-items: center;
@@ -294,4 +299,34 @@ body {
 .icono--actual {
     position: relative;
     bottom: 2vw;
+}
+
+/* Tabla Estilos */
+
+#Especificaciones-Tabla {
+    background-color: var(--P_color1);
+    border: 3px  solid var(--C_color1);
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.Tabla__Item {
+    padding: 1%;
+}
+
+.Tabla__Titulo {
+    color: var(--F_color1);
+    font-family: var(--P_font);
+    font-weight: 800;
+    text-align: justify;
+}
+
+.Tabla__Info {
+    color: var(--F_color2);
+    font-family: var(--P_font);
+    text-align: right;
+}
+
+.recomendacion__card--cambios2--azul {
+    background-color: var(--P_color2) !important;
 }

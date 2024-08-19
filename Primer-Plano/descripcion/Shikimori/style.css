@@ -8,141 +8,12 @@
     --P_font: "Avenir", Arial, Helvetica, sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-}
-
-#screen-lock {
-    display: none;
-}
-
-body {
-    background-color: var(--C_color1);
-}
-
-/* Estilos Encabezado */
-
-header {
-    box-sizing: border-box;
-    width: 100vw;
-    display: grid;
-    grid-template-areas:
-        "encabezado"
-}
-
-.header__item {
-    display: flex;
-}
-
-.item__encabezado {
-    display: grid;
-    column-gap: 20px;
-    grid-area: encabezado;
-    grid-template-areas:
-        "Texto-Header Texto-Header Icon-Header"
-}
-
-.encabezado__img {
-    width: 80%;
-    border-radius: 100%;
-}
-
-.encabezado--izquierda {
-    padding-top: 5vw ;
-    padding-left: 5vw;
-    grid-area: Texto-Header;
-}
-
-.encabezado__h2 {
-    color: var(--F_color2);
-    font-family: var(--P_font);
-}
-
-.encabezado__h1 {
-    color: var(--F_color1);
-    font-family: var(--P_font);
-}
-
-.h1--encabezado {
-    font-size: 7vw;
-    font-weight: 800;
-}
-
-.h2--encabezado {
-    padding-top: 2vw;
-    font-size: 4vw;
-}
-
-.encabezado--derecha {
-    padding-top: 4vw;
-    grid-area: Icon-Header;
-}
-
-.item_buscador {
-    justify-content: center;
-    grid-area: buscador;
-}
-
-.buscador__cuadro {
-    padding-top: 4vw;
-    height: 6vh;
-    width: 90%;
-    display: flex;
-}
-
-.cuadro__input {
-    font-family: var(--P_font);
-    color: var(--F_color2);
-    width: 100%;
-}
-
-main {
-    box-sizing: content-box;
-    padding-bottom: 18vw;
-    padding-top: 4vw;
-    display: flex;
-    width: 100vw;
-    flex-wrap: wrap;
-    height: fit-content;
-    margin-bottom: 2vh;
-}
-
-@media (min-width:375px) {
-    main {
-        margin-bottom: 125vw;
-    }
-}
-
-@media (min-width:425px) {
-    main {
-        margin-bottom: 150vw;
-    }
-}
-
-@media (min-width:475px) {
-    main {
-        margin-bottom: 180vw;
-    }
-}
-
-@media (min-width:600px) {
-    main {
-        margin-bottom: 200vw;
-    }
-}
-
 /* Card Estilo */
 
 #Recomendacion-Container {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 100%;
 }
 
 .recomendacion__background {
@@ -153,7 +24,7 @@ main {
 }
 
 .recomendacion__card {
-    padding: 10vw;
+    padding: 2vw;
     display: flex;
     background-color: var(--P_color1);
     margin: auto;
@@ -167,7 +38,7 @@ main {
 }
 
 .card__img {
-    width: 80%;
+    width: 100%;
     border-radius: 25px;
 }
 
@@ -191,7 +62,7 @@ main {
     margin-right: 5%;
     text-align: center;
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 1vw;
     width: 100%;
     font-family: var(--P_font);
     color: var(--C_color1);
@@ -219,22 +90,22 @@ main {
     flex-direction: row;
     justify-content: center;
     background-color: var(--P_color2);
-    width: fit-content;
-    padding: 2vw;
+    min-width: fit-content;
+    padding: 10px;
     border-radius: 5px;
 }
 
 .precio__txt {
     font-family: var(--P_font);
     color: var(--C_color1);
-    font-size: 4vw;
+    font-size: 1em;
     font-weight: 800;
 }
 
 .carrito__background {
     background-color: var(--P_color2);
     border-radius: 10px;
-    padding: 3vw;
+    padding: 10px;
 }
 
 .carrito__background:hover  {
@@ -251,7 +122,7 @@ main {
 .Opciones {
     font-family: var(--P_font);
     color: var(--C_color1);
-    font-size:3.5vw;
+    font-size:1vw;
 }
 
 .opciones_prime {
@@ -267,6 +138,7 @@ main {
     column-gap: 2em;
     width: 45%;
     border-radius: 15px 15px 0px 0px;
+    text-decoration: none;
 }
 
 .recomendacion__card--cambios2 {
@@ -288,13 +160,14 @@ main {
 }
 
 .txt__h4 {
-    font-size: 4.5vw;
+    font-size: 1vw;
     font-family: var(--P_font);
     color: var(--C_color1);
+    text-decoration: none;
 }
 
 .txt__p {
-    font-size: 5vw;
+    font-size: 1vw;
     color: var(--C_color1);
     text-align: justify;
     font-family: var(--P_font);
