@@ -2,6 +2,7 @@
     {
         "titulo": "SHIKIMORI ES MÁS QUE UNA CARA BONITA",
         "precio": 49900,
+        "id": 1,
         "descripción": "Su mala suerte podría considerarse sobrenatural. Izumi, un chico que sale con su dulce y encantadora compañera de clase, Shikimori, y que ama la ciudad de Kioto, tienen increíbles aventuras junto a su grupo de amigos. ¡No esperes más para leer este noveno tomo!.",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_1_C.jpg",
         "tipo": "Libro Impreso",
@@ -22,6 +23,7 @@
     {
         "titulo": "BERSERK N.32",
         "precio": 34900,
+        "id": 2,
         "descripción": "Un caballero negro monta en las espaldas de un monstruo. Un imponente emperador ve mermada su fuerza por la alianza de sus adversarios. El caballero blanco derrota a los malvados Kushán y se hace con el control de los ejércitos de los nobles. Un grupo de amigos buscan la paz en la isla de Elfhelm. Una decisión del Pontífice pretende doblegar la voluntad de las familias aliadas al Vaticano. Y una joven intenta hacer su primer viaje astral con la ayuda de su amiga mágica. ¡Todo esto y más en el tomo 32 de Berserk!",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_2_C.jpg",
         "tipo": "Libro Impreso",
@@ -42,6 +44,7 @@
     {
         "titulo": "One Piece N.101",
         "precio": 49900,
+        "id": 3,
         "descripción": "¡La aventura continúa con Luffy y su tripulación enfrentando nuevos desafíos en el Nuevo Mundo! En este tomo, los Piratas del Sombrero de Paja se enfrentan a poderosos enemigos y revelan secretos ocultos que cambiarán su destino. No te pierdas este emocionante capítulo de la épica búsqueda del tesoro más grande del mundo.",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_3_C.jpg",
         "tipo": "Libro Impreso",
@@ -63,6 +66,7 @@
     {
         "titulo": "Attack on Titan N.35",
         "precio": 45900,
+        "id": 4,
         "descripción": "En el último volumen de Attack on Titan, la batalla final está en pleno apogeo. La humanidad enfrenta su última oportunidad para sobrevivir mientras secretos impactantes se revelan y alianzas inesperadas se forman. ¡Descubre cómo culmina esta épica lucha por la libertad en el tomo 35!",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_4_C.jpg",
         "tipo": "Libro Impreso",
@@ -85,6 +89,7 @@
     {
         "titulo": "My Hero Academia N.29",
         "precio": 47900,
+        "id": 5,
         "descripción": "La batalla por la paz continúa mientras los héroes en formación enfrentan pruebas más duras que nunca. Con villanos amenazantes y nuevas habilidades en juego, este tomo revela momentos cruciales en la lucha por la justicia y la protección de la sociedad. ¡No te pierdas el tomo 29 de My Hero Academia!",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_5_C.jpg",
         "tipo": "Libro Impreso",
@@ -107,6 +112,7 @@
     {
         "titulo": "Tokyo Ghoul:re N.16",
         "precio": 42900,
+        "id": 6,
         "descripción": "¡Las oscuras y misteriosas aventuras en Tokyo Ghoul:re llegan a un nuevo clímax! Con la guerra entre ghouls y humanos escalando, los personajes se enfrentan a dilemas morales y batallas intensas. El tomo 16 ofrece una visión profunda de la lucha interna y externa en un mundo lleno de caos y sangre.",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_6_C.jpg",
         "tipo": "Libro Impreso",
@@ -127,6 +133,7 @@
     {
         "titulo": "Dragon Ball Super N.21",
         "precio": 48900,
+        "id": 7,
         "descripción": "Las aventuras de Goku y sus amigos siguen sin descanso en Dragon Ball Super. Nuevos enemigos y desafíos ponen a prueba la fuerza de los guerreros Z mientras buscan nuevas formas de proteger el universo. El tomo 21 está lleno de acción y momentos que definieron la serie.",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_7_C.jpg",
         "tipo": "Libro Impreso",

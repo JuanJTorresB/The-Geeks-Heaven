@@ -30,6 +30,11 @@ main {
     margin-bottom: 80vw;
 }
 
+.invisible {
+    display: none !important;
+    opacity: 0;
+}
+
 /* Estilos Encabezado */
 
 header {
@@ -180,16 +185,19 @@ main {
 /* Recomendaciones Estilos */
 
 #Recomendacion-Container {
-    grid-area: Recomendacion;
     display: flex;
 }
 
 .recomendacion__background {
     background-color: var(--C_color2);
-    margin: auto;
-    width: 90%;
+    margin: 0;
+    width: 20%;
     height: 100%;
     border-radius: 25px;
+}
+
+.salir-de {
+    max-width: 500px;
 }
 
 .recomendacion__card {
@@ -359,4 +367,35 @@ main {
 .icono--actual {
     position: relative;
     bottom: 2vw;
+}
+
+/* Tabla Estilos */
+
+#Especificaciones-Tabla {
+    background-color: var(--P_color1);
+    border: 3px  solid var(--C_color1);
+    border-radius: 25px;
+    padding: 5%;
+    transition: all;
+}
+
+.Tabla__Item {
+    padding: 1%;
+}
+
+.Tabla__Titulo {
+    color: var(--F_color1);
+    font-family: var(--P_font);
+    font-weight: 800;
+    text-align: justify;
+}
+
+.Tabla__Info {
+    color: var(--F_color2);
+    font-family: var(--P_font);
+    text-align: right;
+}
+
+.recomendacion__card--cambios2--azul {
+    background-color: var(--P_color2) !important;
 }

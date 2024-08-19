@@ -27,8 +27,6 @@ const pedirProductosIndex = async () => {
   }
 };
 
-arr = [].includes("", 0);
-
 const secciónNovedades = document.getElementById("novedades");
 
 const masLeidos = document.getElementById("masLeidos");
@@ -55,7 +53,7 @@ const crearProductoIndex = (producto) => {
                                 <span class="precio__txt"><i class="iconos fa-solid fa-dollar"></i>${producto.precio}</span>
                             </div>
                             <div class="carrito__background">
-                                <i class="iconos fa-solid fa-cart-shopping fa-2xl"></i>
+                                <i class="iconos fa-solid fa-cart-shopping  fa-2xl"></i>
                             </div>
                         </div>
                     </div>
@@ -79,27 +77,31 @@ const crearProductoIndex = (producto) => {
               <table id="Especificaciones-Tabla">
                   <tr>
                       <th class="Tabla__Titulo Tabla__Item">Tipo</th>
-                      <td class="Tabla__Info Tabla__Item">Libro Impreso</td>
+                      <td class="Tabla__Info Tabla__Item">${producto.tipo}</td>
                   </tr>
                   <tr>
                       <th class="Tabla__Titulo Tabla__Item">Dimensiones</th>
-                      <td class="Tabla__Info Tabla__Item">11 x 17 x 1 cm</td>
+                      <td class="Tabla__Info Tabla__Item">${producto.dimensiones}</td>
                   </tr>
                   <tr>
                       <th class="Tabla__Titulo Tabla__Item">Encuadernación</th>
-                      <td class="Tabla__Info Tabla__Item">Rústica</td>
+                      <td class="Tabla__Info Tabla__Item">${producto.encuadernación}</td>
                   </tr>
                   <tr>
                       <th class="Tabla__Titulo Tabla__Item">Nº Paginas</th>
-                      <td class="Tabla__Info Tabla__Item">228</td>
+                      <td class="Tabla__Info Tabla__Item">${producto.numero_de_paginas}</td>
                   </tr>
                   <tr>
-                      <th class="Tabla__Titulo Tabla__Item">Fecha de Edicion</th>
-                      <td class="Tabla__Info Tabla__Item">2024</td>
+                      <th class="Tabla__Titulo Tabla__Item">Fecha de Edición</th>
+                      <td class="Tabla__Info Tabla__Item">${producto.fecha_de_edición}</td>
                   </tr>
                   <tr>
                       <th class="Tabla__Titulo Tabla__Item">Idioma</th>
-                      <td class="Tabla__Info Tabla__Item">Español</td>
+                      <td class="Tabla__Info Tabla__Item">${producto.idioma}</td>
+                  </tr>
+                  <tr>
+                      <th class="Tabla__Titulo Tabla__Item">Genero</th>
+                      <td class="Tabla__Info Tabla__Item">${producto.genero.join("<br>")}</td>
                   </tr>
               </table>
           </div>
@@ -114,9 +116,26 @@ const construirProductoIndex = (producto) => {
     let elementos = crearProductoIndex(producto);
     let descripciónEspacio = elementos[1].lastElementChild.lastElementChild.lastElementChild
     let especificacionesEspacio = elementos[1].lastElementChild.lastElementChild.lastElementChild.previousElementSibling
-    const cambiarEspc = (bool)=>{descripciónEspacio.classList.toggle("invisible", bool)};
     console.log(descripciónEspacio)
-    //console.log(elementos[1].lastElementChild.lastElementChild.firstElementChild.lastElementChild.lastElementChild.lastElementChild);
+    let botonCarrito = elementos[1].lastElementChild.lastElementChild.firstElementChild.lastElementChild.lastElementChild.lastElementChild;
+    botonCarrito.addEventListener("click", ()=>{
+      console.log("Carrito");
+      localCarrito = JSON.parse(localStorage.getItem(`Carrito`));
+      let productoInCarrito = false
+      for (let productos of localCarrito){
+        if (productos.id == producto.id){
+          productos.cantidad += 1
+          productoInCarrito = true
+        }
+      };
+      if (productoInCarrito){
+        console.log("Producto en el Carrito")
+      } else {
+        producto["cantidad"] = 1
+        localCarrito.push(producto)
+      }
+      localStorage.setItem("Carrito", JSON.stringify(localCarrito))
+    })
     butonDesc = elementos[1].lastElementChild.lastElementChild.firstElementChild.nextElementSibling.firstElementChild;
     butonEspc = elementos[1].lastElementChild.lastElementChild.firstElementChild.nextElementSibling.lastElementChild;
     butonDesc.addEventListener("click", ()=>{
@@ -138,7 +157,25 @@ const construirProductoIndex = (producto) => {
     let especificacionesEspacio = elementos[1].lastElementChild.lastElementChild.lastElementChild.previousElementSibling
     const cambiarEspc = (bool)=>{descripciónEspacio.classList.toggle("invisible", bool)};
     console.log(descripciónEspacio)
-    //console.log(elementos[1].lastElementChild.lastElementChild.firstElementChild.lastElementChild.lastElementChild.lastElementChild);
+    let botonCarrito = elementos[1].lastElementChild.lastElementChild.firstElementChild.lastElementChild.lastElementChild.lastElementChild;
+    botonCarrito.addEventListener("click", ()=>{
+      console.log("Carrito");
+      localCarrito = JSON.parse(localStorage.getItem(`Carrito`));
+      let productoInCarrito = false
+      for (let productos of localCarrito){
+        if (productos.id == producto.id){
+          productos.cantidad += 1
+          productoInCarrito = true
+        }
+      };
+      if (productoInCarrito){
+        console.log("Producto en el Carrito")
+      } else {
+        producto["cantidad"] = 1
+        localCarrito.push(producto)
+      }
+      localStorage.setItem("Carrito", JSON.stringify(localCarrito))
+    })
     butonDesc = elementos[1].lastElementChild.lastElementChild.firstElementChild.nextElementSibling.firstElementChild;
     butonEspc = elementos[1].lastElementChild.lastElementChild.firstElementChild.nextElementSibling.lastElementChild;
     butonDesc.addEventListener("click", ()=>{
@@ -155,5 +192,9 @@ const construirProductoIndex = (producto) => {
     secciónNovedades.appendChild(elementos[0]);
   }
 };
+
+if (localStorage.getItem("Carrito") === null){
+  localStorage.setItem("Carrito", JSON.stringify([]))
+}
 
 pedirProductosIndex();

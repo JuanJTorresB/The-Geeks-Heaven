@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="../Recursos Globales/Fuentes/Fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../Recursos Globales/Imagenes/Logo.png" type="image/png">
+    <link rel="stylesheet" href="../Primer-Plano/descripcion/Shikimori/style.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)"
         href="../Recursos Globales/Media-Queries/screen-block.css">
+    <script defer src="script.js"></script>
     <title>The Geeks Heaven</title>
 </head>
 
@@ -25,83 +27,27 @@
             </div>
         </div>
         <nav class="header__item item_buscador">
-            <form action="" class="item_buscador_bg">
+            <form action="" class="item_buscador_bg" id="form_filtros">
                 <label for="Manga">Manga</label>
-                <input type="checkbox" id="Manga">
+                <input type="radio" name="filtro" id="Manga">
                 <label for="Novela_Romántica_Juvenil">Novela Romántica Juvenil</label>
-                <input type="checkbox" id="Novela_Romántica_Juvenil">
+                <input type="radio" name="filtro" id="Novela_Romántica_Juvenil">
                 <label for="Acción">Acción</label>
-                <input type="checkbox" id="Acción">
+                <input type="radio" name="filtro" id="Acción">
                 <label for="Fantasía_Oscura">Fantasía Oscura</label>
-                <input type="checkbox" id="Fantasía_Oscura">
+                <input type="radio" name="filtro" id="Fantasía_Oscura">
                 <label for="Aventura">Aventura</label>
-                <input type="checkbox" id="Aventura">
+                <input type="radio" name="filtro" id="Aventura">
                 <label for="Drama">Drama</label>
-                <input type="checkbox" id="Drama">
+                <input type="radio" name="filtro" id="Drama">
                 <label for="Superhéroes">Superhéroes</label>
-                <input type="checkbox" id="Superhéroes">
+                <input type="radio" name="filtro" id="Superhéroes">
             </form>
         </nav>
-        <div id="screen-lock">
-            <div class="screen-lock__card">
-                <h4 class="screen-lock__text screen-lock--Titulo">No estamos disponibles para esta resolución</h4>
-                <p class="screen-lock__text screen-lock--Parrafo"">Para brindarle un óptimo servicio requerimos resoluciones móviles, gracias por su compresión</p>
-            </div>
-        </div>
     </header>
     <main>
-    <section id=" Todos-Container">
+    <section id="Todos-Container">
                 <ul id="Todos-Container__lista">
-                    <li class="Todos-Container__lista__item"><a
-                            href="../Primer-Plano/descripcion/Shikimori/shikimori.html"><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_1_C.jpg"
-                                alt="Portada Libro Shikimori" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a
-                            href="../Primer-Plano/descripcion/Berserk/berserk.html"><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_2_C.jpg"
-                                alt="Portada Libro Berserk Tomo 32" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_3_C.jpg" alt="Portada Libro Haikyu"
-                                class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_4_C.jpg"
-                                alt="Portada Libro KING IN BLACK" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_5_C.jpg"
-                                alt="Portada Libro SpyXFamily Tomo 10" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_6_C.jpg"
-                                alt="Portada Libro El Rey Negro Spider-Man" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_7_C.jpg"
-                                alt="Portada Libro El Rey Negro Venom" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_8_C.jpg"
-                                alt="Portada Libro SpyXFamily Tomo 11" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_9_C.jpg"
-                                alt="Portada Libro UNDEAD UNLUCK" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_10_C.jpg"
-                                alt="Portada Libro Skip y Loafer Tomo 1" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_11_C.jpg"
-                                alt="Portada Libro GACHIAKUTA Tomo 4" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_12_C.jpg"
-                                alt="Portada Libro UNIVERSO ARAÑA: SPIDER-CERO N. 01" class="lista__item__img"></a>
-                    </li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_13_C.jpg"
-                                alt="Portada Libro LA MUERTE DE WOLVERINE Nº 08" class="lista__item__img"></a></li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_14_C.jpg"
-                                alt="Portada Libro UNIVERSO ARAÑA: MARVEL-VERSE N. 02" class="lista__item__img"></a>
-                    </li>
-                    <li class="Todos-Container__lista__item"><a href=""><img
-                                src="../Recursos Globales/Imagenes/Libros/Libro_15_C.jpg"
-                                alt="Portada Libro 5 SEGUNDOS ANTES DE QUE LA BRUJA SE ENAMORE"
-                                class="lista__item__img"></a></li>
                 </ul>
                 </section>
                 </main>
