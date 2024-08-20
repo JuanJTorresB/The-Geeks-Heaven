@@ -68,31 +68,6 @@
             </ul>
         </nav>
     </footer>
-    <script>
-        const cambioTamañoIconos = ()=>{
-            console.log(window.screen.width)
-            const iconosNav = document.getElementsByClassName("inconos__nav")
-            if (window.screen.width > 800){
-                for (let iconos of iconosNav){
-                    if(iconos.classList.contains("fa-4x")){
-                        iconos.classList.replace("fa-4x", "fa-2xl")
-                    } else {
-                        iconos.classList.add("fa-2xl")
-                    }
-                }
-            } else {
-                for (let iconos of iconosNav){
-                    if(iconos.classList.contains("fa-2x")){
-                        iconos.classList.replace("fa-2xl", "fa-4x")
-                    } else {
-                        iconos.classList.add("fa-4xl")
-                    }
-                }
-            }
-        }
-        cambioTamañoIconos()
-        window.addEventListener("resize", cambioTamañoIconos)
-        </script>
     <script src="https://kit.fontawesome.com/6b61d34628.js" crossorigin="anonymous"></script>
 </body>
 </html>

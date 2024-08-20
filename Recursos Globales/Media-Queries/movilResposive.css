@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #Recomendacion-Container {
+    width: 30vw;
+} */
+
+.precio__background {
+    padding: 2px;
+    font-size: 2vw;
+}
+
+.carrito__background{
+    padding: 1px;
+    height: fit-content;
+}
+
+.iconos {
+    font-size: 2vw !important;
+}
+
+.barra__navegacion {
+    font-size: 3vw;
+}
+
+.txt__h4{
+    font-size: 10px;
+}
+
+.txt__p {
+    text-wrap: wrap;
+    font-size: 12px;
+}
+
+#botonDesc, #botonEspec {
+    padding: 3vw;
+}

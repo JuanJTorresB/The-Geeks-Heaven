@@ -8,6 +8,7 @@
     <link rel="icon" href="../Recursos Globales/Imagenes/Logo.png" type="image/png">
     <link rel="stylesheet" href="../Primer-Plano/descripcion/Shikimori/style.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" href="../Recursos Globales/Media-Queries/screen-block.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="../Recursos Globales/Media-Queries/movilResposive.css">
     <script defer src="script.js"></script>
     <title>The Geeks Heaven</title>
 </head>
@@ -93,19 +94,6 @@
             </ul>
         </nav>
     </footer>
-    <script>
-        console.log(window.screen.width)
-        const iconosNav = document.getElementsByClassName("inconos__nav")
-        if (window.screen.width < 800){
-            for (let iconos of iconosNav){
-                iconos.classList.replace("fa-4x", "fa-2xl")
-            }
-        } else {
-            for (let iconos of iconosNav){
-                iconos.classList.replace("fa-2xl", "fa-4x")
-            }
-        }
-    </script>
     <script src="https://kit.fontawesome.com/6b61d34628.js" crossorigin="anonymous"></script>
 </body>
 </html>

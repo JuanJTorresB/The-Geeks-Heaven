@@ -222,7 +222,6 @@ body {
     max-height: 200px;
     max-width: 130px;
     min-height: 15vh;
-    width: 30vw;
     border-radius: 25px;
 }
 
@@ -235,7 +234,6 @@ body {
         border-radius: 25px;
     }
 }
-
 /* Estilos Barra de Navegacion */
 
 @media (min-width: 500px) {
@@ -329,4 +327,8 @@ body {
 
 .recomendacion__card--cambios2--azul {
     background-color: var(--P_color2) !important;
+}
+
+.card__txt {
+    padding: 2vw;
 }
