@@ -212,8 +212,6 @@ main {
 }
 
 .card__img {
-    margin-top: 20%;
-    margin-left: 10%;
     width: 80%;
     border-radius: 25px;
 }
@@ -226,7 +224,6 @@ main {
 }
 
 .txt__titulo {
-    font-size: 5vw;
     width: 100%;
     font-family: var(--P_font);
     color: var(--C_color1);

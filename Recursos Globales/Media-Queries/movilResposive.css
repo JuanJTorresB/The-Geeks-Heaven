@@ -14,12 +14,11 @@
 }
 
 .carrito__background{
-    padding: 1px;
     height: fit-content;
 }
 
 .iconos {
-    font-size: 2vw !important;
+    font-size: 2vw;
 }
 
 .barra__navegacion {
@@ -30,6 +29,11 @@
     font-size: 10px;
 }
 
+.carrito__background{
+    text-align: center;
+    
+}
+
 .txt__p {
     text-wrap: wrap;
     font-size: 12px;
@@ -37,4 +41,12 @@
 
 #botonDesc, #botonEspec {
     padding: 3vw;
+}
+
+.txt__titulo {
+    font-size: 12px;
+}
+
+.card__txt {
+    padding: 2vw;
 }

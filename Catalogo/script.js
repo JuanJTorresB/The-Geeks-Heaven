@@ -49,7 +49,7 @@ const crearProductoCatalogo = (producto) => {
                           <h4 class="txt__titulo">${producto.titulo}</h4>
                           <div class="card__botones">
                               <div class="precio__background">
-                                  <span class="precio__txt"><i class="iconos fa-solid fa-dollar"></i>${
+                                  <span class="precio__txt"><i class="iconos fa-solid fa-dollar fa-sm"></i>${
                                     producto.precio
                                   }</span>
                               </div>
