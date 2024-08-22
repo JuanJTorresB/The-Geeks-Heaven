@@ -42,21 +42,21 @@
         ]
     },
     {
-        "titulo": "One Piece N.101",
-        "precio": 49900,
+        "titulo": "Haikyu 4",
+        "precio": 29900,
         "id": 3,
-        "descripción": "¡La aventura continúa con Luffy y su tripulación enfrentando nuevos desafíos en el Nuevo Mundo! En este tomo, los Piratas del Sombrero de Paja se enfrentan a poderosos enemigos y revelan secretos ocultos que cambiarán su destino. No te pierdas este emocionante capítulo de la épica búsqueda del tesoro más grande del mundo.",
+        "descripción": "El equipo de Karasuno sigue enfrentando desafíos en su camino hacia el campeonato nacional. Las emociones y la tensión alcanzan su punto máximo mientras los jugadores se preparan para los partidos más importantes.",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_3_C.jpg",
-        "tipo": "Libro Impreso",
+        "tipo": "Manga Impreso",
         "dimensiones": "11 x 17 x 1",
         "encuadernación": "Rústica",
-        "numero_de_paginas": "228",
+        "numero_de_paginas": "192",
         "fecha_de_edición": "2024",
         "idioma": "Español",
         "genero": [
             "Manga",
-            "Aventura",
-            "Acción"
+            "Deportes",
+            "Drama"
         ],
         "secciones": [
             "Más Leídos",
@@ -64,44 +64,20 @@
         ]
     },
     {
-        "titulo": "Attack on Titan N.35",
-        "precio": 45900,
+        "titulo": "Spider-Man y Avengers",
+        "precio": 34900,
         "id": 4,
-        "descripción": "En el último volumen de Attack on Titan, la batalla final está en pleno apogeo. La humanidad enfrenta su última oportunidad para sobrevivir mientras secretos impactantes se revelan y alianzas inesperadas se forman. ¡Descubre cómo culmina esta épica lucha por la libertad en el tomo 35!",
+        "descripción": "Spider-Man se une a los Avengers para enfrentarse a una amenaza interdimensional que amenaza con destruir la realidad. Acción y aventura con el equipo de superhéroes más icónico.",
         "img": "/Recursos Globales/Imagenes/Libros/Libro_4_C.jpg",
-        "tipo": "Libro Impreso",
+        "tipo": "Cómic Impreso",
         "dimensiones": "11 x 17 x 1",
         "encuadernación": "Rústica",
-        "numero_de_paginas": "228",
+        "numero_de_paginas": "232",
         "fecha_de_edición": "2024",
         "idioma": "Español",
         "genero": [
-            "Manga",
+            "Cómic",
             "Acción",
-            "Drama",
-            "Fantasía"
-        ],
-        "secciones": [
-            "Más Leídos",
-            "Novedades"
-        ]
-    },
-    {
-        "titulo": "My Hero Academia N.29",
-        "precio": 47900,
-        "id": 5,
-        "descripción": "La batalla por la paz continúa mientras los héroes en formación enfrentan pruebas más duras que nunca. Con villanos amenazantes y nuevas habilidades en juego, este tomo revela momentos cruciales en la lucha por la justicia y la protección de la sociedad. ¡No te pierdas el tomo 29 de My Hero Academia!",
-        "img": "/Recursos Globales/Imagenes/Libros/Libro_5_C.jpg",
-        "tipo": "Libro Impreso",
-        "dimensiones": "11 x 17 x 1",
-        "encuadernación": "Rústica",
-        "numero_de_paginas": "228",
-        "fecha_de_edición": "2024",
-        "idioma": "Español",
-        "genero": [
-            "Manga",
-            "Acción",
-            "Aventura",
             "Superhéroes"
         ],
         "secciones": [
@@ -110,43 +86,242 @@
         ]
     },
     {
-        "titulo": "Tokyo Ghoul:re N.16",
-        "precio": 42900,
-        "id": 6,
-        "descripción": "¡Las oscuras y misteriosas aventuras en Tokyo Ghoul:re llegan a un nuevo clímax! Con la guerra entre ghouls y humanos escalando, los personajes se enfrentan a dilemas morales y batallas intensas. El tomo 16 ofrece una visión profunda de la lucha interna y externa en un mundo lleno de caos y sangre.",
-        "img": "/Recursos Globales/Imagenes/Libros/Libro_6_C.jpg",
-        "tipo": "Libro Impreso",
+        "titulo": "Spy x Family 10",
+        "precio": 29900,
+        "id": 5,
+        "descripción": "La familia Forger enfrenta nuevas pruebas mientras la misión de Loid se vuelve más complicada. El equilibrio entre la vida familiar y el deber de espía nunca ha sido tan desafiante.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_5_C.jpg",
+        "tipo": "Manga Impreso",
         "dimensiones": "11 x 17 x 1",
         "encuadernación": "Rústica",
-        "numero_de_paginas": "228",
+        "numero_de_paginas": "200",
         "fecha_de_edición": "2024",
         "idioma": "Español",
         "genero": [
             "Manga",
-            "Horror",
-            "Fantasía Oscura"
+            "Comedia",
+            "Acción"
         ],
         "secciones": [
-            "Más Leídos"
+            "Más Leídos",
+            "Novedades"
         ]
     },
     {
-        "titulo": "Dragon Ball Super N.21",
-        "precio": 48900,
-        "id": 7,
-        "descripción": "Las aventuras de Goku y sus amigos siguen sin descanso en Dragon Ball Super. Nuevos enemigos y desafíos ponen a prueba la fuerza de los guerreros Z mientras buscan nuevas formas de proteger el universo. El tomo 21 está lleno de acción y momentos que definieron la serie.",
-        "img": "/Recursos Globales/Imagenes/Libros/Libro_7_C.jpg",
-        "tipo": "Libro Impreso",
+        "titulo": "Spider-Man: El Rey Negro",
+        "precio": 34900,
+        "id": 6,
+        "descripción": "Spider-Man se enfrenta a una amenaza sin precedentes mientras el simbiótico traje negro vuelve a tomar el control. Una historia oscura y emocionante que explora los límites del héroe arácnido.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_6_C.jpg",
+        "tipo": "Cómic Impreso",
         "dimensiones": "11 x 17 x 1",
         "encuadernación": "Rústica",
-        "numero_de_paginas": "228",
+        "numero_de_paginas": "224",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Cómic",
+            "Acción",
+            "Superhéroes"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Venom: El Rey Negro",
+        "precio": 34900,
+        "id": 7,
+        "descripción": "Venom asume un papel oscuro en esta serie, enfrentando a enemigos tanto internos como externos mientras el simbiótico lo consume. Un viaje intenso a través del lado más oscuro del personaje.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_7_C.jpg",
+        "tipo": "Cómic Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "224",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Cómic",
+            "Acción",
+            "Terror"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Spy x Family 11",
+        "precio": 29900,
+        "id": 8,
+        "descripción": "La saga de la familia Forger continúa mientras se enfrentan a nuevos desafíos y enemigos. Las aventuras y el drama familiar se mezclan en un emocionante nuevo tomo.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_8_C.jpg",
+        "tipo": "Manga Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "200",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Manga",
+            "Comedia",
+            "Acción"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Undead Unluck",
+        "precio": 29900,
+        "id": 9,
+        "descripción": "Una joven con el poder de deshacer la muerte y un hombre inmortal se encuentran en una batalla épica contra seres sobrenaturales. Acción y misterio en cada página.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_9_C.jpg",
+        "tipo": "Manga Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "192",
         "fecha_de_edición": "2024",
         "idioma": "Español",
         "genero": [
             "Manga",
             "Acción",
-            "Aventura",
-            "Ciencia Ficción"
+            "Sobrenatural"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Skip y Loafer",
+        "precio": 29900,
+        "id": 10,
+        "descripción": "Una comedia romántica sobre dos jóvenes con personalidades opuestas que encuentran la amistad y el amor mientras navegan por la vida escolar. Encantador y lleno de corazón.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_10_C.jpg",
+        "tipo": "Manga Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "192",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Manga",
+            "Romántico",
+            "Comedia"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Gachiakuta 4",
+        "precio": 29900,
+        "id": 11,
+        "descripción": "Continúa la lucha en un mundo donde la supervivencia es una batalla constante. El protagonista se enfrenta a nuevos desafíos en su camino hacia la victoria.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_11_C.jpg",
+        "tipo": "Manga Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "200",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Manga",
+            "Acción",
+            "Aventura"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Universo Araña: Spider-Cero",
+        "precio": 34900,
+        "id": 12,
+        "descripción": "Una exploración del multiverso arácnido, con nuevas historias y versiones del icónico Spider-Man. Un viaje épico a través de diferentes realidades.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_12_C.jpg",
+        "tipo": "Cómic Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "224",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Cómic",
+            "Acción",
+            "Superhéroes"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "La Muerte de Wolverine",
+        "precio": 34900,
+        "id": 13,
+        "descripción": "Una historia épica sobre la caída de uno de los héroes más icónicos de Marvel. Explora el impacto de la muerte de Wolverine en el universo de los cómics.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_13_C.jpg",
+        "tipo": "Cómic Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "232",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Cómic",
+            "Acción",
+            "Drama",
+            "Superhéroes"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "Marvel Verse: Spider-Man - Universo Araña",
+        "precio": 34900,
+        "id": 14,
+        "descripción": "Una serie que explora las múltiples dimensiones del Universo Araña y las diferentes versiones de Spider-Man en una narrativa entrelazada.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_14_C.jpg",
+        "tipo": "Cómic Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "224",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Cómic",
+            "Acción",
+            "Superhéroes"
+        ],
+        "secciones": [
+            "Más Leídos",
+            "Novedades"
+        ]
+    },
+    {
+        "titulo": "5 Segundos Antes de que la Bruja se Enamore",
+        "precio": 29900,
+        "id": 15,
+        "descripción": "Una historia encantadora sobre una bruja que intenta evitar enamorarse mientras lidia con sus propias emociones y desafíos.",
+        "img": "/Recursos Globales/Imagenes/Libros/Libro_15_C.jpg",
+        "tipo": "Manga Impreso",
+        "dimensiones": "11 x 17 x 1",
+        "encuadernación": "Rústica",
+        "numero_de_paginas": "192",
+        "fecha_de_edición": "2024",
+        "idioma": "Español",
+        "genero": [
+            "Manga",
+            "Novela Romántica Juvenil",
+            "Comedia"
         ],
         "secciones": [
             "Más Leídos",
