@@ -27,6 +27,7 @@ La página web fue diseñada para la venta de mangas y comics de manera online, 
 Tecnologías usadas en este proyecto:
 * [HTML]: Version 5
 * [CSS]: Version 3
+* [JavaScript]: ECMA-262
 * [Miro](https://miro.com)
 * [Canva](https://www.canva.com)
 * [Fontawesome](https://fontawesome.com)
@@ -42,6 +43,4 @@ $ git clone https://github.com/JuanJTorresB/PROYECTO-FILTRO_TORRESJUAN_BECERRAJO
 
 ## Maneras de Aportar
 ***
-> Integraciones con Javacript
-
-> Diseño web de escritorio
+> Agregando Mas Mangas y Comics Al JSON
