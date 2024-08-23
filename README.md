@@ -15,7 +15,7 @@
 
 ### Información General
 ***
-En este proyecto encontrará una página web, orientada a dispositivos móviles, en la que se aplican conocimientos de semántica HTML, "Box Model", CSS puro y de "Responsive Design"
+En este proyecto encontrará una página web, orientada a dispositivos móviles, en la que se aplican conocimientos de semántica HTML, JavaScript PUro, "Box Model", CSS puro y de "Responsive Design"
 La página web fue diseñada para la venta de mangas y comics de manera online, buscando una estética juvenil con colores llamativos y dándole mucho peso a las distintas portadas aprovechando sus estéticas.
 
 ### Screenshots
