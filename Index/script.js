@@ -8,6 +8,8 @@ const opciones = {
   Headers: cabeceras,
 };
 
+const url = "./Datos/Productos.json";
+
 const petición = async (url, opciones) => {
   const respuesta = await fetch(url, opciones);
   if (respuesta.ok) {
@@ -18,7 +20,6 @@ const petición = async (url, opciones) => {
   }
 };
 
-const url = "./Datos/Productos.json";
 
 const pedirProductosIndex = async () => {
   const datos = await petición(url, opciones);
