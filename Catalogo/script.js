@@ -8,7 +8,7 @@ const opciones = {
   Headers: cabeceras,
 };
 
-const url = "./Datos/Productos.json";
+const url = "../Datos/Productos.json";
 
 const petición = async (url, opciones) => {
   const respuesta = await fetch(url, opciones);
