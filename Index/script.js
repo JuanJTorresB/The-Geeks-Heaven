@@ -18,7 +18,7 @@ const petición = async (url, opciones) => {
   }
 };
 
-const url = "/Datos/Productos.json";
+const url = "Datos/Productos.json";
 
 const pedirProductosIndex = async () => {
   const datos = await petición(url, opciones);
